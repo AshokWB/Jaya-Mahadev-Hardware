@@ -32,12 +32,6 @@ body{
     width: 90px;
 }
 
-.span-title{
-    font-size: 3rem;
-    font-weight: 900;
-    margin: 0 0 0 .8rem;
-    animation: fade 5s linear infinite;  
-}
 .progress-holder{
     position: relative;
     fill: none;
@@ -55,12 +49,6 @@ body{
     animation: progress1 2100ms linear infinite;
     stroke:rgb(4, 165, 111);
 }
-
-.bg{
-    background-color: rgba(0, 0, 0, 0.116);
-    border-radius: 50%;
-}
-
 @keyframes progress1 {
     0%{
         stroke-width:0;
@@ -77,14 +65,5 @@ body{
         stroke-width:0;
         stroke-dasharray:1000;
         stroke-dashoffset:-500;
-    }
-}
-
-@keyframes span{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
     }
 }
