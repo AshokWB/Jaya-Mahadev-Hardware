@@ -30,7 +30,6 @@ body{
 .img{
     position: absolute;
     width: 90px;
-    animation: span 1s ease-in;
 }
 
 .span-title{
