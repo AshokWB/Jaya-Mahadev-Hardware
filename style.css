@@ -17,21 +17,20 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
-svg{
+.wrapper{
+    position: relative;
     display: grid;
     place-items: center;
-    position: relative;
+}
+.svg{
+    display: grid;
+    place-items: center;
 }
 .img{
     position: absolute;
-    width: 100px;
-}
-.title{
-    position: absolute;
-    top: 60%;
-    color: #059488;
+    width: 90px;
+    animation: span 1s ease-in;
 }
 
 .span-title{
@@ -79,5 +78,14 @@ svg{
         stroke-width:0;
         stroke-dasharray:1000;
         stroke-dashoffset:-500;
+    }
+}
+
+@keyframes span{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
     }
 }
