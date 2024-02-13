@@ -18,9 +18,15 @@ body {
 	display: grid;
 	place-items: center;
 	transition: background-color 0.3s;
+	user-select: none;
 }
 main {
 	padding: 1.5em 0;
+}
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .wrapper{
     display: flex;
@@ -29,7 +35,40 @@ main {
     align-items: center;
 }
 .logo{
-    width: 260px;
+    width: 300px;
+	aspect-ratio: 1;
+	background-image: url(./logo\ \(white\).svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.logo-holder{
+	display: flex;
+	width: 100px;
+	height: 100px;
+	background-image: url(./logo_name/logo_name_black_np.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.project-author{
+	bottom: 0;
+	position: absolute;
+	margin: 0 0 5rem 0;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.name{
+	display: flex;
+	align-items: center;
+	gap:0 .2rem
+
+
 }
 .pl,
 .pl__worm {
@@ -68,7 +107,7 @@ main {
 	width: 7px;
 	height: 7px;
 	border-radius: 50%;
-	background: #fff;
+	background: #000000;
 	margin: -4px 0 0 -4px;
   }
   .lds-roller div:nth-child(1) {
@@ -145,6 +184,26 @@ main {
 	.pl__ring {
 		stroke: hsla(var(--hue),10%,90%,0.1);
 	}
+	.logo-holder{
+		background-image: url(./logo_name/logo_name_white_np.png);
+	}
+	.logo{
+		width: 300px;
+		aspect-ratio: 1;
+		background-image: url(./B&W\ logo.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.lds-roller div:after {
+		content: " ";
+		display: block;
+		position: absolute;
+		width: 7px;
+		height: 7px;
+		border-radius: 50%;
+		background: #fff;
+		margin: -4px 0 0 -4px;
+	  }
 }
 
 /* Animations */
