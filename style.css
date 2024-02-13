@@ -37,7 +37,7 @@ main {
 .logo{
     width: 300px;
 	aspect-ratio: 1;
-	background-image: url(./logo\ \(white\).svg);
+	background-image: url(./hardware_logo_green.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 }
@@ -190,7 +190,7 @@ main {
 	.logo{
 		width: 300px;
 		aspect-ratio: 1;
-		background-image: url(./B&W\ logo.svg);
+		background-image: url(./hardware_logo_bw.svg);
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
