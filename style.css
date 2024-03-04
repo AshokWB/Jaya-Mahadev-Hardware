@@ -35,9 +35,9 @@ main {
     align-items: center;
 }
 .logo{
-    width: 300px;
+    width: 250px;
 	aspect-ratio: 1;
-	background-image: url(./sticker\ new-01-01.png);
+	background-image: url(./typography\ logo_black\ logo.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 }
@@ -188,9 +188,9 @@ main {
 		background-image: url(./logo_name/logo_name_white_np.png);
 	}
 	.logo{
-		width: 300px;
+		width: 250px;
 		aspect-ratio: 1;
-		background-image: url(./sticker\ new-01-01.png);
+		background-image: url(./typography\ logo_white\ logo.png);
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
